@@ -1,4 +1,4 @@
 #!/bin/sh
 
-curl -s -o "$(pwd)/${1}.png" "http://www.google.com/s2/favicons?domain_url=http%3A%2F%2F${1}"
+curl -s -o "/tmp/${1}.png" "http://www.google.com/s2/favicons?domain_url=http%3A%2F%2F${1}"
 
